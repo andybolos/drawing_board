@@ -13,7 +13,6 @@ let isDrawing = false
 let lastX = 0;
 let lastY = 0
 
-
 function draw(e) {
     if (!isDrawing) return
     ctx.beginPath()
